@@ -18,9 +18,9 @@ Some Hacks To Speed Up Your Windows PC
 2.Repeat Method `1` with `temp` instead of `%temp%`  
 3.Disable `BackGround Intelligent Transfer Service(BITS)` service in Windows 8+  
 4.Disable `Print Spooler` service.  
-5.Try to update drivers from ONLY manufacturer sources [like the p8H61mlx3 r2.0](https://www.asus.com/us/support/Download/1/39/4/50/jsQ4elhaeETolOo2/45/) , and TRY NOT TO USE ANY 3rd PARTY DRIVER UPDATERS.
-6.Configure static ip in network adapter settings.
-7.Use good security softwares but configure them for medium protection (Else they will scan all the uptime and use a lot of memory,cpu and disk resources.
+5.Try to update drivers from ONLY manufacturer sources [like the p8H61mlx3 r2.0](https://www.asus.com/us/support/Download/1/39/4/50/jsQ4elhaeETolOo2/45/) , and TRY NOT TO USE ANY 3rd PARTY DRIVER UPDATERS.  
+6.Configure static ip in network adapter settings.  
+7.Use good security softwares but configure them for medium protection (Else they will scan all the uptime and use a lot of memory,cpu and disk resources.  
 8.If you have a lot of `$$$$$` then buy good hardwares (i.e SSDs,CPUs with higher clockspeed .etc)
 
 
