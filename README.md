@@ -12,6 +12,9 @@ Some Hacks To Speed Up Your Windows PC
 5.Stops a hunged application in 1000ms.  
 6.Opens menus without delay.
 
+### 2. temp-kill.exe : File in the repo:
+→ Put the file in C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup .Each time computer starts it will ask for password and will clear all temporary files in C:\Windows\Temp and C:\Users\%username%\AppData\Local\Temp. I've also uploaded the bat file to make you see the code and if your windows working drive isn't C:
+
 ## AND SOME OTHER WAY :
 
 1.Open RUN, type `%temp%` and then `Control+A` [to select all files] and then `Shift+Delete`.  
