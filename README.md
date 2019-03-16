@@ -3,8 +3,8 @@ Some Hacks To Speed Up Your Windows PC
 
 ## Files in this Repo :
 
-### 1. MainRegistryHack.reg : Contains Microsoft Regitry Editor Codes :
-#### Main Methods :  
+### Registry Modifiers
+### • MainRegistryHack.reg  
 1.Close Services in 5 seconds while shutting down[remove if pc shuts in <15s].  
 2.Stops Clearing PageFile at shutdown to prevent slowdown.  
 3.Disables Superfetch.  
@@ -12,10 +12,24 @@ Some Hacks To Speed Up Your Windows PC
 5.Stops a hunged application in 1000ms.  
 6.Opens menus without delay.
 
-### 2. temp-kill.exe : File in the repo:
-→ Put the file in C:\Users\%username%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup.  
-Each time computer starts it will ask for password and will clear all temporary files in C:\Windows\Temp and C:\Users\%username%\AppData\Local\Temp.  
-I've also uploaded the bat file to make you see the code and if your windows working drive isn't C:
+### • custom_cmd_powershell.reg
+A super-duper custom from-anywhere-cmd or from-anywhere-powershell prompt by right click. Elevated prompts possible
+
+### Cleaners
+### • temp-kill.exe
+ → Cleans temporary garbage files ←  
+#### Some Automation:
+   → Put the file in "Shell:Startup" (Use _RUN_).Each time computer starts it will ask for password and will clear all temporary files  
+   in _C:\Windows\Temp_ and  _C:\Users\%username%\AppData\Local\Temp_.I've also uploaded the bat file to make you see the code and if  
+   your windows working drive isn't C:
+
+### Proces|Memory|Function Modifier(s)
+
+### • ProcessKiller.bat :  
+Tired of using task manager for stopping wired processes? Just put the name (_*.exe_) by editing the batch file, run with Admin        permission, and minimize the window. You're done. Using this one will take some effort. There are already some useless process provided(Most of the time they are, unless required).
+
+### • timeSync.exe :  
+Automatic time synchronization problem? Dead CMOS? Well, put this one in "Shell:Startup" (use _RUN_) & enjoy perfect time with a cup of coffee.(Ensure you use a LAN that doesn't need to be signed in, otherwise manual operation xD)
 
 ## AND SOME OTHER WAY :
 
