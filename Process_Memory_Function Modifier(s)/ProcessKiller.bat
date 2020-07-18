@@ -1,4 +1,5 @@
 @echo off
+REM "YOU NEED TO ADD A LOT OF STUFFS HERE TO ACTUALLY MAKE THINGS WORK"
 title Connectify Fixer
 color a
 :A
