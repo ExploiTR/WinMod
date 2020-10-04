@@ -31,6 +31,15 @@ Tired of using task manager for stopping wired processes? Just put the name (_*.
 ### • timeSync.exe :  
 Automatic time synchronization problem? Dead CMOS? Well, put this one in "Shell:Startup" (use _RUN_) & enjoy perfect time with a cup of coffee.(Ensure you use a LAN that doesn't need to be signed in, otherwise manual operation xD)
 
+## Kill Bloatware
+Often for those who are not aware much about the inside of PC the manufacturer might have included Bloatware/Malware which feeds on CPU resources.There is a simple way you can get rid of them and Windows has aleady provided a solution.In search bar type Windows Defender and after opening it run the scan . It will find if there is any harmful malware exists in system . If you have taken some anti-virus solutions you can use them as well. In One Instance I accidentally clicked a ad infested website and downloaded file in which malware was infused. Windows defender helped me to find the problem
+
+## Make hard disk better
+Hard disks are slower than ssd's but constant usage of hard disk can make your PC slow . Even for this Windows has a built-in solution. Type defrag in search box and you will come across defragment and optimize drives. After that select the option on which drive you want to optimize.You can also set a schedule where you can check the time frequency of when you want to defrag your disks.There are daily,weekly and monthly options.
+
+## Optimise by adjusting animations
+The recent version of Windows have loads of animations and graphics .Although they are meant to enrich the user experience on the contrary they can slow down your PC as well.But don't worry you can adjust very easily. You can go to Control Panel> System and Security>System> Advanced System settings .On The performance option you can select Adjust for best performance but you have to sacrifice the animations.
+
 ## AND SOME OTHER WAY :
 
 1.Open RUN, type `%temp%` and then `Control+A` [to select all files] and then `Shift+Delete`.  
