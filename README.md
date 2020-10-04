@@ -23,7 +23,7 @@ A super-duper custom from-anywhere-cmd or from-anywhere-powershell prompt by rig
    in _C:\Windows\Temp_ and  _C:\Users\%username%\AppData\Local\Temp_.I've also uploaded the bat file to make you see the code and if  
    your windows working drive isn't C:
 
-### Proces|Memory|Function Modifier(s)
+### Process|Memory|Function Modifier(s)
 
 ### • ProcessKiller.bat :  
 Tired of using task manager for stopping wired processes? Just put the name (_*.exe_) by editing the batch file, run with Admin        permission, and minimize the window. You're done. Using this one will take some effort. There are already some useless process provided(Most of the time they are, unless required).
